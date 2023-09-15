@@ -26,5 +26,13 @@
  - Open Java Ide and open the folder  where you unzip the folder .
  - Now simply run by play the run button of ide. Make sure that database is conect with ide.
  - To run program in cmd follow this step
->   1. Open cmd  
+   1. Open cmd
+   2. Run the command
+      cd `Folder Location~.
+   3. Use the given command to compile the java program
+      javac NK_Hospital_console.java
+   4. Runthe java file
+      java Nk_Hospital_console
+
+ ## Code Snippets
  
