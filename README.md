@@ -13,6 +13,6 @@
  ## Getting Started
 
  ### Dependencies
- - A DataBase Connector is required. Connector is depend on which type of dtabase is used such as oracle,Ms Acess. You can download the MySql for the given Link (https://dev.mysql.com/downloads/connector/j/) .  
+ - A DataBase Connector is required. Connector is depend on which type of dtabase is used such as oracle,Ms Acess. You can download the MySql for the given Link https://dev.mysql.com/downloads/connector/j/ .  
  
  
