@@ -16,10 +16,16 @@
  - A DataBase Connector is required. Connector is depend on which type of dtabase is used such as oracle,Ms Acess. You can download the MySql for the given Link https://dev.mysql.com/downloads/connector/j/ . 
 
  ### Installing 
+ - Download the zip file of project.
+ - Unzip the folder in any folder.
  - Run the data file in your database .
  - To add or change the name of doctor you have to modify the data file before the executation.
  - Now open any java ide and add your connector .
 
 ### Executing Program
- #.
+ - Open Java Ide and open the folder  where you unzip the folder .
+ - Now simply run by play the run button of ide. Make sure that database is conect with ide.
+ - For cmd follow the given command
+   1. cd <folder Location >
+   
  
