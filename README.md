@@ -26,6 +26,6 @@
  - Open Java Ide and open the folder  where you unzip the folder .
  - Now simply run by play the run button of ide. Make sure that database is conect with ide.
  - For cmd follow the given command
-   1. cd <folder Location >
+   1. cd [folder Location]
    
  
