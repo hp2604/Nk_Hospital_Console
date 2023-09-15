@@ -5,13 +5,19 @@ import java.util.Scanner;
 
 
 public class appointment {
-     public static void Insert()
+     String pname,fname,doctor,address,gender,disease;
+       long number;int age,recordNo;int id;
+       Date d;
+       PreparedStatement prm;
+
+        
+     public  void Insert()
     {
        Connection c=ConnectionProvider.getConnection();
        Scanner sc=new Scanner(System.in);
-       String pname,fname,doctor,address,gender,disease;
-       long number;int age,recordNo;
-       System.out.println("Hn Hosptial ");
+      
+       System.out.println("\t \t     N.K Hospital");
+        System.out.println("\t \t ------------------------");
        
        //Patient name . pname=patient name;
        System.out.print("Enter the name of patient : ");
@@ -48,16 +54,16 @@ public class appointment {
        doctor=sc.nextLine();
        
        //Reord Number Previous
-       System.out.println("Enter the Previous Record Number");
+       System.out.print("Enter the Previous Record Number");
        recordNo=sc.nextInt();
-       Date d=new Date(System.currentTimeMillis());
+        d=new Date(System.currentTimeMillis());
        
        //Query
         String query="insert into patients (pname,fname,age,gender,contact,address,disease,doctor,previousRecordNo,dateofVisit) Values(?,?,?,?,?,?,?,?,?,?)";
-       
+        String query2="select max(recordno) from patients"; 
         try
        { 
-        PreparedStatement prm= c.prepareStatement(query);
+        prm= c.prepareStatement(query);
         prm.setString(1,pname);
         prm.setString(2,fname );
         prm.setInt(3, age);
@@ -69,6 +75,13 @@ public class appointment {
         prm.setInt(9, recordNo);
         prm.setDate(10,d );
         prm.executeUpdate();
+        prm=c.prepareStatement(query2);
+        ResultSet st=prm.executeQuery();
+        while(st.next())
+        {
+            id=st.getInt(1);
+        }
+        print();
         
         
        }
@@ -77,5 +90,33 @@ public class appointment {
            e.printStackTrace();
        }
     }
+     public void print()
+     {
+         System.out.println("\t Nk Hospital");
+         for(int i=0;i<20;i++)
+         {
+             System.out.print("---");
+         }
+         System.out.println();
+         System.out.println("|\t RecordNo.: " + id + "\t\t Date : " + d);
+         System.out.println("|\t Name : " + pname );
+         System.out.println("|\t Age : " + age );
+         System.out.println("|\t Gender : " + gender );
+         System.out.println("|\t Disease : " + disease +"\n|\t Doctor : " + doctor);
+          for(int i=0;i<20;i++)
+         {
+             System.out.print("---");
+         }
+        for(int i=0;i<10;i++)
+        {   System.out.print("|");
+            System.out.println();
+        }
+         for(int i=0;i<20;i++)
+         {
+             System.out.print("---");
+         }
+         System.out.println();
+         
+     }
     
 }
