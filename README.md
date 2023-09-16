@@ -38,7 +38,7 @@
       java Nk_Hospital_console
 
  ## Code Snippets
-![snip1](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/963738cb-0c73-412d-912c-ae002321f6aa) ![snip3](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/165f967f-0fa7-4519-9b9c-d233a692679c)
+![snip3](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/165f967f-0fa7-4519-9b9c-d233a692679c)
 
 
 
