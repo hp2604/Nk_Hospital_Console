@@ -39,5 +39,7 @@
  ## Code Snippets
 ![snip1](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/651f0d97-f009-4b1e-a12a-fd46aec0515e)
 ![snip2](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/195cf00f-abd9-4cdd-b91f-06672fd6f1ed)
+![snip3](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/2b8c448e-b688-4391-b4b0-4f3f846d63b5)
+
 
 
