@@ -36,8 +36,5 @@
       java Nk_Hospital_console
 
  ## Code Snippets
- ![snip5](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/51b3cb3c-813c-4234-ad7b-36d4504b7171)
-![snip4](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/b95787aa-4d6d-4832-bf7e-6a7eb06e450f)
-![snip3](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/8d335378-edb6-4dde-a120-7ba56ad70c5e)
-![snip2](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/26a1c26c-77d0-4d5d-bb0a-c5d7c644f792)
-![snip1](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/ef121885-eb54-4056-8034-e97569188e2d)
+![snip1](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/651f0d97-f009-4b1e-a12a-fd46aec0515e)
+
