@@ -1,3 +1,4 @@
+![snip3](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/165f967f-0fa7-4519-9b9c-d233a692679c)
 
 
 # Nk_Hospital_Console
