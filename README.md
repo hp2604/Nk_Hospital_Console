@@ -1,6 +1,3 @@
-
-
-
 # Nk_Hospital_Console
  Console Java application that allows users to input the details of user and book appointment .  Then it store the detail of patient in database .  It allow the user to search teh doctor for paticular problem. It gives the information 
 
@@ -38,7 +35,8 @@
       java Nk_Hospital_console
 
  ## Code Snippets
-![snip3](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/165f967f-0fa7-4519-9b9c-d233a692679c)
+![snip3](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/165f967f-0fa7-4519-9b9c-d233a692679c) ![snip6](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/fd773f51-6014-4cb6-99a2-38cee6687ac9)
+
 
 ![snip2](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/85c86482-a280-4c49-8b0e-fe4e097e3248)
 
