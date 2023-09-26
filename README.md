@@ -13,7 +13,7 @@
  ## Getting Started
 
  ### Dependencies
- - A DataBase Connector is required. Connector is depend on which type of dtabase is used such as oracle,Ms Acess. You can download the MySql for the given Link https://dev.mysql.com/downloads/connector/j/ . 
+ - A DataBase Connector is required. Connector is depend on which type of dtabase is used such as oracle,Ms Acess. You can download the MySql connector  form the given Link https://dev.mysql.com/downloads/connector/j/ . 
 
  ### Installing 
  - Download the zip file of project.
@@ -24,15 +24,8 @@
 
 ### Executing Program
  - Open Java Ide and open the folder  where you unzip the folder .
- - Now simply run by play the run button of ide. Make sure that database is conect with ide.
- - To run program in cmd follow this step
-   1. Open cmd
-   2. Run the command
-      cd `Folder Location~.
-   3. Use the given command to compile the java program
-      javac NK_Hospital_console.java
-   4. Runthe java file
-      java Nk_Hospital_console
+ - Now simply run by play the run button of ide. Make sure that database is connected with ide.
+ 
 
  ## Code Snippets
 ![snip3](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/165f967f-0fa7-4519-9b9c-d233a692679c) ![snip6](https://github.com/hp2604/Nk_Hospital_Console/assets/95865009/fd773f51-6014-4cb6-99a2-38cee6687ac9)
